@@ -24,7 +24,7 @@
     <h1> Cloud-9 </h1>
     <br>
     <hr>
-        <input type="text" value="https://cobalt-requiem.github.io/antithesis" placeholder="https://cobalt-requiem.github.io/antithesis" id='input' autofocus>
+        <input type="text" value="https://cobalt-requiem.github.io/antithesis" placeholder="https://settings101.github.io/cloud-9" id='input' autofocus>
         <button onclick='create()'>Cloak!</button>
       <br>
       <p id="id">Cloaker</p>
