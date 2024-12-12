@@ -14,4 +14,4 @@ Welcome to Cloud-9. This is a pr0xy project (Using the Interstellar Pr0xy). Thes
 
 > [!NOTE]
 > After clicking on the port, make sure to open up this website: https://settings101.github.io/cloud-9.html
-> and then cloaking the given link
+> and then cloak the given link (The cloaker works for anything too! Mostly GitHub pages, but it can't cloak YouTube and Google).
