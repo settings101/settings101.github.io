@@ -47,22 +47,9 @@
             font-size: 16px;
             cursor: pointer;
             transition: background 0.3s;
-            position: relative;
         }
         button:hover {
             background: #ff416c;
-        }
-        button:after {
-            content: ' Cloaking...';
-            display: none;
-            position: absolute;
-            right: -100px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 14px;
-        }
-        button.clicked:after {
-            display: inline;
         }
         p {
             margin-top: 20px;
@@ -77,8 +64,6 @@
     </style>
     <script>
         function create() {
-            var button = document.querySelector('button');
-            button.classList.add('clicked');
             var url = document.getElementById('input').value;
             var win = window.open();
             win.document.body.style.margin = '0';
