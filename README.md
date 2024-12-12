@@ -1,7 +1,7 @@
 # Cloud-9
 
 
-Welcome to Cloud-9. This is a pr0xy project. These are the instructions to follow:
+Welcome to Cloud-9. This is a pr0xy project (Using the Interstellar Pr0xy). These are the instructions to follow:
 
 1. Create a GitHub account if you haven't already.
 2. Click "Code" (green button) and then "Create Codespace on main."
