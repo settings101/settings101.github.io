@@ -3,7 +3,7 @@
 
 Welcome to Cloud-9. This is a pr0xy project (Using the Interstellar Pr0xy). These are the instructions to follow:
 
-1. Open: `https://github.com/UseInterstellar/Interstellar`
+1. Open: https://github.com/UseInterstellar/Interstellar
 2. Create a GitHub account if you haven't already.
 3. Click `Code` (green button) and then `Create Codespace on main`.
 4. In the terminal at the bottom, paste `pnpm i && pnpm start`.
