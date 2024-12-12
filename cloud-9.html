@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-     <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/network-database-2/65/28-512.png">
-    <title> Cloud-9 </title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn1.iconfinder.com/data/icons/network-database-2/65/28-512.png">
+    <title>Cloud-9</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            width: calc(100% - 24px);
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background: #ff4b2b;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #ff416c;
+        }
+        p {
+            margin-top: 20px;
+        }
+    </style>
     <script>
-      function create() {
+        function create() {
             var url = document.getElementById('input').value;
             var win = window.open();
             win.document.body.style.margin = '0';
@@ -17,17 +64,16 @@
             iframe.src = url;
             win.document.body.appendChild(iframe);
             document.getElementById("id").innerHTML = "Cloaking complete. I mean, maybe you can cloak something else?";
-
         }
-        </script>
-  </head>
-  <body>
-    <h1> Cloud-9 </h1>
-    <br>
-    <hr>
-        <input type="text" value="" placeholder="Enter your github pr0xy link" id='input' autofocus>
-        <button onclick='create()'>Cloak!</button>
-      <br>
-      <p id="id">Cloaker</p>
-  </body>
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Cloud-9</h1>
+        <hr>
+        <input type="text" placeholder="Enter your GitHub proxy link" id="input" autofocus>
+        <button onclick="create()">Cloak!</button>
+        <p id="id">Cloaker</p>
+    </div>
+</body>
 </html>
