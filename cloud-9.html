@@ -49,6 +49,13 @@
         p {
             margin-top: 20px;
         }
+        a {
+            color: #ff4b2b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
     <script>
         function create() {
@@ -63,7 +70,7 @@
             iframe.style.margin = '0';
             iframe.src = url;
             win.document.body.appendChild(iframe);
-            document.getElementById("id").innerHTML = "Cloaking complete. I mean, maybe you can cloak something else?";
+            document.getElementById("id").innerHTML = `<a href="https://github.com/settings101/settings101.github.io" target="_blank">README.md</a>`;
         }
     </script>
 </head>
@@ -73,7 +80,7 @@
         <hr>
         <input type="text" placeholder="Enter your GitHub proxy link" id="input" autofocus>
         <button onclick="create()">Cloak!</button>
-        <p id="id">Cloaker</p>
+        <p id="id">Instructions: <a href="https://github.com/settings101/settings101.github.io" target="_blank">README.md</a></p>
     </div>
 </body>
 </html>
